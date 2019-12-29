@@ -1,28 +1,28 @@
 # Mandatory settings
 
-blog_theme: light # Or use dark
-name: Chalk
+blog_theme: dark #light # Or use dark
+name: GPif's Blog
 paginate: 25
-url: http://chalk.nielsenramon.com
+url: http://blog.gpif.fr
 
 
 # Optional settings
 
 about_enabled: true # Change to true if you wish to show an icon in the navigation that redirects to the about page
-discus_identifier: chalk-1 # Add your Disqus identifier
-ga_analytics: UA-28631876-6 # Add your GA Tracking Id
+discus_identifier: 
+ga_analytics: 
 local_fonts: false # Change to true if you wish to use local fonts
 rss_enabled: true # Change to false if not
 scrollappear_enabled: true # Change to false to disable
 tag_nav_enabled: false # Change to true if you wish to show an additional 'tag-list' navigation below the header
 theme_toggle: false # Change to true if you wish to show an icon in the navigation for dynamic theme toggling
 social:
-  dribbble: nielsenramon # Add your Dribbble handle
+  dribbble:  # Add your Dribbble handle
   facebook: # Add your Facebook handle
   flickr: # Add your Flickr handle
-  github: nielsenramon # Add your GitHub handle
-  linkedin: # Add your LinkedIn handle
-  twitter: nielsenramon # Add your Twitter handle
+  github: GPif # Add your GitHub handle
+  linkedin: www.linkedin.com/in/guillaume-gillet-dev # Add your LinkedIn handle
+  twitter:  GPiftw # Add your Twitter handle
   email: # Add your Email address
   bitcoin: # Add your Bitcoin link or address
   ethereum: # Add your Ethereum link or address
@@ -37,7 +37,7 @@ social:
   keybase: # Add your Keybase handle
   medium: # Add your Medium handle
   spotify: # Add your Spotify handle
-  stackoverflow: # Add your Stack Overflow ID number
+  stackoverflow: https://stackoverflow.com/users/6103484/gpif # Add your Stack Overflow ID number
   steam: # Add your Steam handle
 
 
