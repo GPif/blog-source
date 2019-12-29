@@ -10,7 +10,7 @@ url: http://blog.gpif.fr
 
 about_enabled: true # Change to true if you wish to show an icon in the navigation that redirects to the about page
 discus_identifier: 
-ga_analytics: 
+ga_analytics: UA-155100350-1 
 local_fonts: false # Change to true if you wish to use local fonts
 rss_enabled: true # Change to false if not
 scrollappear_enabled: true # Change to false to disable
