@@ -8,11 +8,10 @@ jobs: # a collection of steps
       - checkout # special step to check out source code to working directory
       - run:
           name: Update package 
-          command:
-            - >-
-              curl -sL https://deb.nodesource.com/setup_10.x > setup_10.x
-              $ chmod +x setup_10.x
-              ./setup_10.x
+          command: |
+            curl -sL https://deb.nodesource.com/setup_10.x > setup_10.x
+            $ chmod +x setup_10.x
+            ./setup_10.x
       - run:
           name: "Update Node.js and npm"
           command: sudo apt-get install -y nodejs
