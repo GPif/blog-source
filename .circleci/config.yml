@@ -28,5 +28,8 @@ jobs: # a collection of steps
           name: Update origin
           command: git remote set-url origin git@github.com:GPif/blog-source.git
       - run:
+          name: setup git
+          command: git config --global user.email $USER_EMAIL && git config --global user.name $USER_NAME
+      - run:
           name: publish
           command: npm run publish
