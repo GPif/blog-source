@@ -9,7 +9,7 @@ jobs: # a collection of steps
       - run:
           name: Update package 
           command:
-            ->
+            - >-
               curl -sL https://deb.nodesource.com/setup_10.x > setup_10.x
               $ chmod +x setup_10.x
               ./setup_10.x
