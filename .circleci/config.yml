@@ -10,7 +10,7 @@ jobs: # a collection of steps
       # Which version of bundler?
       - run:
           name: install npm
-          command: apt install npm
+          command: sudo apt install npm
 
       - run: # Install Ruby dependencies
           name: Setup
