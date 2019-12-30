@@ -10,9 +10,16 @@ jobs: # a collection of steps
       # Which version of bundler?
       - run:
           name: install npm
-          command: sudo apt install npm
+          command: |
+            set +e
+            curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.5/install.sh | bash
+            export NVM_DIR="/opt/circleci/.nvm"
+            [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+            nvm install v6.2.2
+            nvm alias default v6.2.2
+            echo 'export NVM_DIR="/opt/circleci/.nvm"' >> $BASH_ENV
+            echo "[ -s \"$NVM_DIR/nvm.sh\" ] && . \"$NVM_DIR/nvm.sh\"" >> $BASH_ENV
 
       - run: # Install Ruby dependencies
           name: Setup
           command: npm run setup
-
