@@ -10,5 +10,5 @@ gem "jekyll-sitemap"
 gem "jemoji"
 gem "mini_magick"
 gem "sass"
-gem "sprockets", '3.7.0'
+gem "sprockets", '3.7.2'
 gem "uglifier"
