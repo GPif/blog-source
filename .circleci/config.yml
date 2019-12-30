@@ -20,7 +20,7 @@ jobs: # a collection of steps
           command: sudo npm run setup
       - run:
           name: Update origin
-          command: git remote origin set-url git@github.com:GPif/blog-source.git
+          command: git remote set-url origin git@github.com:GPif/blog-source.git
       - run:
           name: publish
           command: npm run publish
