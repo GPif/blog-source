@@ -26,11 +26,18 @@ So, you have a project, and your first step is to open your favorite text editor
 The first step when you want to tackle a project is to start by decomposing, whether you use an oriented object language, a functional language or whatever, the first step to design a software of any kind, is to determine the pieces that it compose. Generally, after this step you should notice the emeregence of some [design pattern](https://en.wikipedia.org/wiki/Software_design_pattern). Good news, you can now refere to a well documented legacy of software designer.
 So far, you have not written a single line of code but your software have all its structure. Half th job is done
 
-## What you need
-
-Knowing a bit more on what the code will look like,  you can figure out your needs, what library will it depends, does it lie on database, on what kind? A relation based one or a document one, how you will test. 
-
 ## Thinking ahead on how and where it will run
+
+Knowing a bit more on what the code will look like, you can figure out your needs, what library will it depends on, does it lie on database, of what kind? A relation based one or a document one, how you will test. 
+Once this questions answere, you can figure out the architectural schema needed. It can be quite simple, for instance, a simple webap will only need an application server and a database, to more complicated, if you need a micro service applications with an asynchron message passing service.
+
+## What you need?
+
+It is time to setup your dev environement. Generally it is about taking your architeur schema an figure out how to run them locally. You can either run them all or use some mock to simulate there behavior. Also, how to setup a test environment and a continuous integration.
+
+## Time to code!
+
+Yes, about time, there you will see that it is just a translation of what you planned in previous steps.
 
 # Develop, doesn't end once delivered
 
