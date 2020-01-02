@@ -41,7 +41,11 @@ Yes, about time, there you will see that it is just a translation of what you pl
 
 # Develop, doesn't end once delivered
 
+The deadline of a project, or the time it is delivered can been seen as the end of a journey, when we can now move to another one, with fresh new idea. It is not :) Your product is now used, visible, you my have some feedback, and if you want your baby to stay alive, you have to take care of it.
+
 ## You should have tested
+
+I did't put the emphasis on this before, but test is essential, and make sense once in production. Why? Because now you will use them to make sure the tiny modification you make will not crash the whole application. At this moment you will get the reward of the extra time you spend writting your tests. Thanks to them you avoid spending your weekend bringing back your service trying to limit the amount of money lost by a production failure.
 
 ## There will be bug and not only bugs
 
