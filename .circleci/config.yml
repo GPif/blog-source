@@ -22,11 +22,14 @@ jobs: # a collection of steps
           name: Setup
           command: sudo npm run setup
       - run:
+          name: Chown
+          command: chown -R circleci:circleci *
+      - run:
           name: Bundle
           command: bundle install
       - run:
           name: Update origin
-          command: git remote set-url origin git@github.com:GPif/blog-source.git
+          command: git remote set-url origin git@github.com:GPif/blog.git
       - run:
           name: setup git
           command: git config --global user.email $USER_EMAIL && git config --global user.name $USER_NAME
