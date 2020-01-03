@@ -23,7 +23,7 @@ jobs: # a collection of steps
           command: sudo npm run setup
       - run:
           name: Chown
-          command: chown -R circleci:circleci *
+          command: sudo chown -R circleci:circleci *
       - run:
           name: Bundle
           command: bundle install
