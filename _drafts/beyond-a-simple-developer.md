@@ -1,10 +1,52 @@
 ---
 layout: post
 title: "Being a developer beyond simply coding"
-description: "An overview of what it means to be a developer and why it is not simply production code"
+description: "An overview of what it means to be a developer and why it is not simply production of code"
 thumb_image: "documentation/sample-image.jpg"
 tags: [developer, philosophy]
 ---
+
+
+What is like to be a developer in 2020? The question is worst asking as I see many confusions, long time ago it was the geeky genius, living in the dark, socially disabled, to the cool start up west cost millenials, still facing its screen, still doing mystical things.
+
+There the confusion convey by pop-culture, develop is producing code. Ask him/her something and it will furiously tip on its keyboard making its magic and creating the service that now worth millions, and in less than an hour.
+
+Truth is, the magic is not that complicated, language and framework make it less and less complicated. Many become a developer, as it is not so mystical and thee is still this romantic representation.
+
+The reality is quite different
+
+# Coding is not 100% of your project
+
+* What coding strait ahead will result
+* Decompose 
+* Thinking of production
+* Thinking of dependencies
+* Your environment
+* Code and test
+
+# The work is not finish after the last line
+
+* Deliver and get feedback
+* Fix bug without breaking
+* Add features
+* Back and force like any modern project
+
+# Make something that works is easy, make something that last is hard 
+
+## Less code is better
+
+* Easier to maintain
+* Elegant and robust
+* Sign of a good design (sens of code smell)
+
+# You will and must not keep your code for yourself
+
+* Work with team to grow
+* Share to learn
+* Give back to the community, (who gave you a lot)
+* Share, not to be stuck endlessly with your burden
+
+
 
 What is like to be a developer in 2020. When we think about it, coding is more and more accessible, everyone can create their own website for their business or personal branding. Services delivers pre-made solution for basically every digital needs.
 
