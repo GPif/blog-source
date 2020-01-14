@@ -68,12 +68,14 @@ Other cliché, is the genius working all night long and with the first beam of t
 * Fear of being judge, there some part of the code a developer is ashame of and do not want to be seen by there peers.
 * The fear to deliver something that is not working. As a homework we are reluctant to give as it will not give us good grades.
 
-In fact, it took me time to realize that the delivery is not the end of the road, far from that. It is better to deliver fast, as soon as the [MVP](https://en.wikipedia.org/wiki/Minimum_viable_product) is working. Getting feedback as fast as possible allow a projet to stay align with the user need, especially if it tend t change with time.
+In fact, it took me time to realize that the delivery is not the end of the road, far from that. It is better to deliver fast, as soon as the [MVP](https://en.wikipedia.org/wiki/Minimum_viable_product) is working. Getting feedback as fast as possible allow a projet to stay align with the user need, especially if it tend to change with time.
 
-* Deliver and get feedback
-* Fix bug without breaking
-* Add features
-* Back and force like any modern project
+Indeed, once the code is becoming concrete, the user will find bug, even if it is not bug according to its author, or ask for improvement. It is something a developer should embrace, as it is the very sign a product is used and appreciated.
+
+That is why modern project management imply a lot of back and forth, either it is the old [waterfall](https://en.wikipedia.org/wiki/Waterfall_model), the [V cycle](https://en.wikipedia.org/wiki/V-Model) or the controversial [agile](https://en.wikipedia.org/wiki/Agile_software_development).
+
+So that is why it is useless to wait for a code to be perfect before delivery. In fact a developer should focus to make it as modular and well designed as possible so that the entropy induce by the addition and evolution is as small as possible.
+Sometime it even mean rebuild the whole thing from scratch when realized that the need has evolved to much.
 
 # Make something that works is easy, make something that last is hard 
 
