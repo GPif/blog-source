@@ -75,9 +75,11 @@ Indeed, once the code is becoming concrete, the user will find bug, even if it i
 That is why modern project management imply a lot of back and forth, either it is the old [waterfall](https://en.wikipedia.org/wiki/Waterfall_model), the [V cycle](https://en.wikipedia.org/wiki/V-Model) or the controversial [agile](https://en.wikipedia.org/wiki/Agile_software_development).
 
 So that is why it is useless to wait for a code to be perfect before delivery. In fact a developer should focus to make it as modular and well designed as possible so that the entropy induce by the addition and evolution is as small as possible.
-Sometime it even mean rebuild the whole thing from scratch when realized that the need has evolved to much.
+Sometime it even means rebuild the whole thing from scratch when realized that the need has evolved to much.
 
 # Make something that works is easy, make something that last is hard 
+
+Nowdays, let face it, it is kind of easy to learn to code, there is plenty of course on the internet, and, modern framework make it easy to attracts new developer. Indeed, what it used to be an obscure witchcraft is now quite accessible. The thing is, the expertise is now on making something good enough to be used on large scale and lasting long.
 
 ## Less code is better
 
