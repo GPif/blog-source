@@ -83,6 +83,12 @@ Nowdays, let face it, it is kind of easy to learn to code, there is plenty of co
 
 ## Less code is better
 
+One big pleasure of a developer, is actually to remove a big chunk of smelling code, by a simple set of one line functions, good enough to handle every limit conditions.
+Simple code are easy to test, with a set of simple inputs expecting a simple outputs.
+
+A big inpiration is [the beautifull code of doom 3](http://fabiensanglard.net/doom3/index.php), the code is simple and clean, even if there is a lot of model to handlei.
+
+
 * Easier to maintain
 * Elegant and robust
 * Sign of a good design (sens of code smell)
