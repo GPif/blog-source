@@ -83,11 +83,22 @@ Nowdays, let face it, it is kind of easy to learn to code, there is plenty of co
 
 ## Less code is better
 
-* Easier to maintain
-* Elegant and robust
-* Sign of a good design (sens of code smell)
+The productivity of a developer is often measure using the number of line of code produce. It is a false and dangerous consumption. Sometime, the develpre impose itself this kind of pressure, afraid to be view as a slacker on review or at the end of the sprint. Truth is, the number of line is not important, what it mater, it is to cover feature with the fewer place of bug or case not treated. It need experience to understand that is take time to produce the perfect, yet small, piece of code. The goal is to have the fewer line of code as a small code has the benefits :
+
+* To be easy to maintain, only a glimps is needed to understand the code.
+* Elegant and robust, it is plesant to read and leave a small place to errors
+* Sign of a good design, a the library to do exactally what the code, without any wierd twist to the framework, meens that the developer and whoever is the creator of the lead, rich to the same conclusion, confirming that the design is a good one.
 
 # You will and must not keep your code for yourself
+
+The image of the sole developer to a program, guardian of the good behavior of the piece of software is a dangerous and wrong myth.
+
+Of course there is some script used to help on some specific task, file coded in few minutes for a specific task. But this is not development. A developer create program or service to be used.
+
+Also, one man argue that their is situations where there is only one developer, kng of the code, but it is a double edge blade.
+First, if we are speaking about profesionnal world, a company should never let the knowledge to only one person, this is a high risk if the employee to leave, go on vacation, or maybe even have some medical issue.
+
+So, this the problem of the company, right? Not only, we can thing that the developer in this situation has the higher ground
 
 * Work with team to grow
 * Share to learn
