@@ -1,65 +1,72 @@
 ---
 layout: post
-title: "Being a developer beyond simply coding"
-description: "An overview of what it means to be a developer and why it is not simply production of code"
+title: "Being a developer beyong simple code"
+description: "Meaning of being a developer and tackle mythologies"
 thumb_image: "documentation/sample-image.jpg"
 tags: [developer, philosophy]
 ---
 
 
-What is like to be a developer in 2020? The question is worst asking as I see many confusions, long time ago it was the geeky genius, living in the dark, socially disabled, to the cool start up west cost millenials, still facing its screen, still doing mystical things.
+What it means beeing a developer? What can we expected from him/her? The question is worst asking as there is many confusions. The mythical figure was, a long time ago the geeky genius, living in the dark, socially disabled, and evolved to the cool start up west cost millenials, but still staring at its screen, doing mystical things.
 
-There the confusion convey by pop-culture, develop is producing code. Ask him/her something and it will furiously tip on its keyboard making its magic and creating the service that now worth millions, and in less than an hour.
+This image is conveyed by pop-culture by the simple equation, develop = producing code. Most of the time he is a bit hacker too. But ask him/her something and it will furiously type on its keyboard making its magic and creating the service that now worth millions, during the night.
 
-Truth is, the magic is not that complicated, language and framework make it less and less complicated. Many become a developer, as it is not so mystical and thee is still this romantic representation.
+<div class="embed-responsive embed-responsive-16by9">
+<iframe src="https://www.youtube.com/embed/uxKmDWDUZ5A?modestbranding=1&autohide=1&showinfo=0&controls=0"  allowfullscreen></iframe>
+</div>
 
-The reality is quite different
+Truth is, the magic is not that complicated, language and framework make development less and less complicated. So many people become developers, as it is, in the end, not so mystical. And, in the end, still bear this romantic representation.
 
-# Coding is not 100% of your project
+This misconception engender some problems, when developer try to stick to this cliché we can see the emergence of frustration, from the developer itself frustrated to have to do somthing else, and frustration from the users who end-up using the engineer tools only understable by its creator.
 
-Many time we tend to rush writing code, thinking that our productivity is directly related to the number of line produced. This conception is harmfull and must be tackle. Start coding to fast is likely to give the following result :
+# Coding is mere 20% of a project
 
-* Unreadable code, only the creator will be able to navigate amongst the maze created, and even, you will be lost if you have to go throw the code you have written six month ago.
-* Lots of technical flows and lacking optimisation
+One frequent mistake is to rush writing code, thinking that productivity is directly related to the number of lines written. Mistake because starting to code to fast is likely to give the following result :
+
+* Unreadable code, only the creator will be able to navigate amongst the maze created, and forgot six month later.
+* Lots of technical flows and lacking of optimisation
 * Hard to debug
 * Impossible to test
 
-First thing to do is to plan and think ahead what to do, the first tool is not an IDE, but the one that help to plan, either is a pen and paper, a white board, a post-it or any project management software.
+First thing to do is to plan and think ahead. The first tool to use is not an IDE, but the one that help to plan, either it is pen and paper, a white board, a post-it or any project management software.
 
-I like to answer the following questions sequentially :
+Starting a project or a feature, I personally like to answer the following questions sequentially :
 
-1. What is the logical sequence to achieve the project ?
+1. What is the logical sequence to make it works ?
 2. How to decompose this sequence in smallest pieces (Object/Module/Libraries) ?
-3. How it will run in production? What architecture
+3. How will it run in production? What architecture?
 4. How can I build a dev environment close to this architecture ?
-5. How do I deploy and test, make sure it works when used
+5. How do I deploy and test? To make sure it works when used.
 
 ## 1. Think ahead how it will work
 
-This first step is to outline the global behaviour of the product, what are the input, the output. It is to translate a common words of a need into technical solutions. The question is generally asked with the obvious statements like "I need to save this fields into a database", they are more likely to be "I need to setup a site to sell my products". The developer is the one to provide solutions to a problem.
+This first step is to outline the global behavior of the product, what are the inputs, the outputs. It is to translate the need expressed in common words into a need into technical solutions. Needs are not generally directly expressed with obvious statements like "I need to save this fields into a database", they are more likely like "I need to setup a site to sell my products". The developer is the one to propose implementation to a problem.
 
 ## 2. Decompose
 
-With experience, one of the instinct a developer grow is to detect code smells, meaning piece of code that should not be this way. A block with to much conditions, a methods doing to many things.
+With experience, one of the instinct a developer grow is to detect code smells, meaning piece of code that should not be this way. A block with too much conditions, or a methods doing to many things.
 
-The key is to split into smallest methods, decompose the code into logical modules. Every methods should do only and only one thing as the [SOLID](https://en.wikipedia.org/wiki/SOLID) principles recommends.
-If done well it should emerge some well known  [design pattern](https://en.wikipedia.org/wiki/Software_design_pattern).
+The key is to split into smallest methods, decompose the code into logical modules. Every methods should do only and only one thing as the [SOLID principles recommends](https://en.wikipedia.org/wiki/SOLID).
+Done well, it should emerge some well known [design pattern](https://en.wikipedia.org/wiki/Software_design_pattern). Indeed, a design should fit to a need, and not to force a code to a design pattern
 
 ## 3. What will it be in production
 
-As part of the solution a developer must provide, explaining how it run is also part of the job. Some wold tell it is a sysadmin one, but in the end developing is also responsible to ask or build the architecture under. The [DevOps](https://en.wikipedia.org/wiki/DevOps) principle is mainly the formalization of what works in project, dev and operator that understand each other.
+Knowing and thinking where and how the code would run i production. Some would tell it is a sysadmin one, but in the end developing is also responsible to ask or build the architecture under. The [DevOps](https://en.wikipedia.org/wiki/DevOps) principle is mainly the formalization of that. 
+
+I have seen many project failing because of a lake of communication between production team and developer, because of a setup notice to compicated and not suited to production needs, or production constraints that make a development to painfull and end up having an impact on user experience. 
+Best projects are when dev and operator understand each other, and worked alongside.
 
 ## 4. Building dev environment
 
-Stick close to the production environment while developing is a good way to avoid bad surprise when going into production. 
+Stick close to the running environment while developing is a good way to avoid bad surprise when going into production. 
 
-Fortunately most framework, language provide every thing, therefore it is easy to have a close to production setup thanks to [docker](https://en.wikipedia.org/wiki/Docker_(software)).
+Fortunately most framework and languages provides everything, therefore it is easy to have a close to production setup thanks to [docker](https://en.wikipedia.org/wiki/Docker_(software)).
 
 ## 5. Create and tests
 
-Last part is to have a good test framework suited to our languages. I will not lie, tests runner are according to me still a work in progress, and quite painful to setup. And the first test is quite hard to make it works. But once done, it ensure that the code is and remain perfectly working, split into separated tasks.
+Last part is to have a good test suite to the development. I will not lie, tests runner are according to me still a work in progress, and quite painful to setup. And first tests are quite hard to setup. But once done, it ensure that the code is and remain perfectly working.
 
-There is many steps to build a sustainable system. To avoid any headache, [KISS](https://en.wikipedia.org/wiki/KISS_principle) , the system should not be complicated, and easy to maintain.
+There are many steps to build a sustainable system. To avoid any headache, [Keep It Simple Stupide](https://en.wikipedia.org/wiki/KISS_principle) , the system should not be complicated, and easy to maintain.
 
 # The work is not finish after the last line
 
@@ -83,15 +90,7 @@ Nowdays, let face it, it is kind of easy to learn to code, there is plenty of co
 
 ## Less code is better
 
-One big pleasure of a developer, is actually to remove a big chunk of smelling code, by a simple set of one line functions, good enough to handle every limit conditions.
-Simple code are easy to test, with a set of simple inputs expecting a simple outputs.
-
-A big inpiration is [the beautifull code of doom 3](http://fabiensanglard.net/doom3/index.php), the code is simple and clean, even if there is a lot of model to handlei.
-
-
-* Easier to maintain
-* Elegant and robust
-* Sign of a good design (sens of code smell)
+The productivity of a developer is often measure using the number of line of code produce. It is a false and dangerous consumption. Sometime, the develpre impose itself this kind of pressure, afraid to be view as a slacker on review or at the end of the sprint. Truth is, the number of line is not important, what it mater, it is to cover feature with the fewer place of bug or case not treated. It need experience to understand that is take time to produce the perfect, yet small, piece of code. The goal is to have the fewer line of code as a small code has the benefits :
 
 * To be easy to maintain, only a glimps is needed to understand the code.
 * Elegant and robust, it is plesant to read and leave a small place to errors
