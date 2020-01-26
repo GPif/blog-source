@@ -17,14 +17,14 @@ This image is conveyed by pop-culture by the simple equation, develop = producin
 
 Truth is, the magic is not that complicated, language and framework make development less and less complicated. So many people become developers, as it is, in the end, not so mystical. And, in the end, still bear this romantic representation.
 
-This misconception engender some problems, when developer try to stick to this cliché we can see the emergence of frustration, from the developer itself frustrated to have to do somthing else, and frustration from the users who end-up using the engineer tools only understable by its creator.
+This misconception engender some problems, when developer try to stick to this cliche we can see the emergence of frustration, from the developer itself frustrated to have to do something else, and frustration from the users who end-up using the engineer tools only understandable by its creator.
 
 # Coding is mere 20% of a project
 
 One frequent mistake is to rush writing code, thinking that productivity is directly related to the number of lines written. Mistake because starting to code to fast is likely to give the following result :
 
-* Unreadable code, only the creator will be able to navigate amongst the maze created, and forgot six month later.
-* Lots of technical flows and lacking of optimisation
+* Unreadable code, only the creator will be able to navigate among the maze created, and forgot six month later.
+* Lots of technical flows and lacking of optimization
 * Hard to debug
 * Impossible to test
 
@@ -70,31 +70,31 @@ There are many steps to build a sustainable system. To avoid any headache, [Keep
 
 # The work is not finish after the last line
 
-Other cliché, is the genius working all night long and with the first beam of the morning sun, look delighted to its screen of a finished work. Unfortunately, the limit is not that net. Result is that people are often reluctant to deliver, as the code is never perfect enough. And this for two reasons :
+Other cliche, is the genius working all night long and with the first beam of the morning sun, look delighted to its screen of a finished work. Unfortunately, the limit between the work in progress and ready to be used is not that clear. Result is, that people are often reluctant to deliver, as the code is never perfect enough. And this for two reasons :
 
-* Fear of being judge, there some part of the code a developer is ashame of and do not want to be seen by there peers.
-* The fear to deliver something that is not working. As a homework we are reluctant to give as it will not give us good grades.
+* Fear of being judged, there some part of the code a developer is ashame of, and it do not want show it to its there peers.
+* The fear to deliver something with bug. It is part of default learn at school, project are seen as homeworks, and we are reluctant to give as it will not give us good grades.
 
 In fact, it took me time to realize that the delivery is not the end of the road, far from that. It is better to deliver fast, as soon as the [MVP](https://en.wikipedia.org/wiki/Minimum_viable_product) is working. Getting feedback as fast as possible allow a projet to stay align with the user need, especially if it tend to change with time.
 
-Indeed, once the code is becoming concrete, the user will find bug, even if it is not bug according to its author, or ask for improvement. It is something a developer should embrace, as it is the very sign a product is used and appreciated.
+Indeed, once the code is becoming concrete, the user will find bug and features he could not imagine before. It is something a developer should embrace, as it is the very sign that the product is used and appreciated.
 
 That is why modern project management imply a lot of back and forth, either it is the old [waterfall](https://en.wikipedia.org/wiki/Waterfall_model), the [V cycle](https://en.wikipedia.org/wiki/V-Model) or the controversial [agile](https://en.wikipedia.org/wiki/Agile_software_development).
 
-So that is why it is useless to wait for a code to be perfect before delivery. In fact a developer should focus to make it as modular and well designed as possible so that the entropy induce by the addition and evolution is as small as possible.
-Sometime it even means rebuild the whole thing from scratch when realized that the need has evolved to much.
+So that is why it is useless to wait for a code to be perfect. In fact, a developer should focus to make it as modular and well designed as possible so that the entropy induce by the addition and evolution is as small as possible.
+Sometime it even means rebuild the whole thing from scratch when it realized that the need has evolved too much.
 
 # Make something that works is easy, make something that last is hard 
 
-Nowdays, let face it, it is kind of easy to learn to code, there is plenty of course on the internet, and, modern framework make it easy to attracts new developer. Indeed, what it used to be an obscure witchcraft is now quite accessible. The thing is, the expertise is now on making something good enough to be used on large scale and lasting long.
+Let's face it, it is kind of easy to learn to code nowadays. There is plenty of online courses, and, modern framework make it easy to attracts new developers. Indeed, what used to be an obscure witchcraft is now quite accessible. The thing is, the expertise is now on making something good enough to be used on large scale and lasting long.
 
 ## Less code is better
 
-The productivity of a developer is often measure using the number of line of code produce. It is a false and dangerous consumption. Sometime, the develpre impose itself this kind of pressure, afraid to be view as a slacker on review or at the end of the sprint. Truth is, the number of line is not important, what it mater, it is to cover feature with the fewer place of bug or case not treated. It need experience to understand that is take time to produce the perfect, yet small, piece of code. The goal is to have the fewer line of code as a small code has the benefits :
+The productivity of a developer is often measured using the number of line of code produce. It is a false and dangerous consumption. Sometime, the developer impose itself this kind of pressure, afraid to be view as a slacker on review or at the end of the sprint. Truth is, the number of line is not important, what it mater, it is to cover feature with the fewer place for bugs or case not treated. It need experience to understand that it takes time to produce the perfect, yet small, piece of code. On contrary, the goal is to have the fewer line of code, as a small code has the benefits :
 
 * To be easy to maintain, only a glimps is needed to understand the code.
-* Elegant and robust, it is plesant to read and leave a small place to errors
-* Sign of a good design, a the library to do exactally what the code, without any wierd twist to the framework, meens that the developer and whoever is the creator of the lead, rich to the same conclusion, confirming that the design is a good one.
+* Elegant and robust, it is pleasant to read and leave a small place to errors
+* Sign of a good design, a the library to do exactly what the code, without any weird twist to the framework, means that the developer and whoever is the creator of the library, reach to the same conclusion, confirming that the design is a good one.
 
 # You will and must not keep your code for yourself
 
@@ -102,17 +102,17 @@ The image of the sole developer to a program, guardian of the good behavior of t
 
 Of course there is some script used to help on some specific task, file coded in few minutes for a specific task. But this is not development. A developer create program or service to be used.
 
-Also, one man argue that their is situations where there is only one developer, kng of the code, but it is a double edge blade.
-First, if we are speaking about profesionnal world, a company should never let the knowledge to only one person, this is a high risk if the employee to leave, go on vacation, or maybe even have some medical issue.
+Also, one might argues that their is situations whith only one developer, king of the code, but it is a double edge blade.
+First, if we are speaking about professional world, a company should never let the knowledge to only one person, this is a high risk if the employee leave, go on vacation, or maybe even have some medical issue.
 
-So, this the problem of the company, right? Not only. We can thing that the developer in this situation has the higher ground. Only if it want to be stuck with is work. Beeing a guardian of a legacy code is also giving up on the possibility to grow.
+But, this the problem of the company, right? Not only. We can think that the developer in this situation has the higher ground. Only if it want to be stuck with its work. Being a guardian of a legacy code is also giving up on the possibility to grow.
 
 But if a developer want to evolve, learn new thing and keeping up with the pace of technology, it have to give up its creation, pass it to a padawane, or anyone willing to continue the project.
 
-Therefore we learn beeing open to criticism, to remarks. No developer, and especialy the good one are perfect. Avoid to become  the [talented jerk](https://jobs.netflix.com/culture) company put aside.
+Therefore we learn being open to criticism, to remarks. No developer, and especially the good one are perfect. Avoid to become  the [talented jerk](https://jobs.netflix.com/culture) company put aside.
 
-Finally, a developer must keep in mind that most of the tools or language, it manipulate is available because a community give it freely. If we want our ecosystem to stay alive we need to give on our turn. That is why some company are know [cheking the activity in open source technology](https://opensource.com/article/19/5/how-get-job-doing-open-source).
+Finally, a developer must keep in mind that most of the tools or language it manipulate, are available because of a community gave it freely. If we want our ecosystem to stay sane and alive, we need to give on our turn. That is why some company are now [cheking the activity in open source community](https://opensource.com/article/19/5/how-get-job-doing-open-source).
 
 # The new face of a developer
 
-Belonging to a community, thinking ahead, sharing, eager to learn new thing, that is the new vision of a developer I would like to give. far from being a loner, but more like a craftsman, moving from new project to ne project, from masterpiece to masterpiece.
+Belonging to a community, thinking ahead, sharing, eager to learn new thing, that is the new image of a developer I would like to give. far from being a loner, but more like a craftsman, moving from new projects to new projects, from masterpieces to masterpieces.
