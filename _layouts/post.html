@@ -13,6 +13,10 @@
             {% include article/info-footer.html post=page %}
           </header>
 
+          {% if page.thumb_image %}
+            {% asset '{{ page.thumb_image }}' %}
+          {% endif %}
+
           <div class="article-content">
             {{ content }}
           </div>

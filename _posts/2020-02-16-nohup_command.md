@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "Quick pverview of nohup command"
-description: "Some basics use of the nohup command"
+title: "Quick preview of nohup command"
+description: "Nohup is a command line to start a program from a terminal, and be able to quit the terminal without exiting your program"
+thumb_image: "documentation/linux.jpg"
 tags: [linux, command line]
 ---
 

@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Being a developer beyong simple code"
-description: "Meaning of being a developer and tackle mythologies"
-thumb_image: "documentation/sample-image.jpg"
+description: "What it means beeing a developer? Far from the mythologie convey by pop culture, a brief description of what it mean nowdays, and what is not only about code anymore"
+thumb_image: "documentation/dev.jpg"
 tags: [developer, philosophy]
 ---
 
